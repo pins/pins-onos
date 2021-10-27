@@ -1,0 +1,7 @@
+[submodule "sonic-onos-driver"]
+	path = sonic-onos-driver
+	url = git@github.com:pins/sonic-onos-driver.git
+[submodule "trellis-control"]
+	path = trellis-control
+	url = git@github.com:daniele-moro/trellis-control.git
+	branch = ipv4_routes
