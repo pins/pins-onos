@@ -67,6 +67,7 @@ COPY --from=install ${APPS_ROOT}/ ${APPS_ROOT}/
 
 # TODO: other apps to start???
 RUN touch $ONOS/apps/org.onosproject.hostprovider/active
+RUN touch $ONOS/apps/org.onosproject.netcfghostprovider/active
 RUN touch $ONOS/apps/org.onosproject.lldpprovider/active
 
 
