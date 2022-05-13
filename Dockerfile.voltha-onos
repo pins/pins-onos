@@ -31,7 +31,7 @@ FROM onosproject/onos:latest as install
 
 # The ENV settings must be replicated below as they are not shared between stages
 ENV ONOS=/root/onos
-ENV KARAF_VERSION=4.2.9
+ENV KARAF_VERSION=4.2.14
 ENV KARAF_ROOT=${ONOS}/apache-karaf-${KARAF_VERSION}
 ENV APPS_ROOT=${ONOS}/apps
 ENV KARAF_M2=${KARAF_ROOT}/system

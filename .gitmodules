@@ -1,7 +1,7 @@
 [submodule "sonic-onos-driver"]
 	path = sonic-onos-driver
 	url = git@github.com:pins/sonic-onos-driver.git
-	branch = dev/niloofar
+	branch = wcmp-demo
 [submodule "trellis-control"]
 	path = trellis-control
 	url = git@github.com:daniele-moro/trellis-control.git
